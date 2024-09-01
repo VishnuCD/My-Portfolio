@@ -1,5 +1,9 @@
 import project1 from '../assets/projects/project-1.jpeg'
 
+export const HERO_NAME = `Vishnu kk`
+
+export const HERO_ROLE = `MERN Stack Developer`
+
 export const HERO_CONTENT = `A computer science graduate with experience in MERN stack.
 I have honed my skills in front-end technologies like React, Javascript, HTML, CSS, Bootstrap and TailwindCSS as well as
 back-end technologies like Node.js, Express.js and MongoDB.

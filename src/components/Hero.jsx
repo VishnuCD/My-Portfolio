@@ -1,5 +1,5 @@
 import React from 'react'
-import { HERO_CONTENT } from '../constants'
+import { HERO_CONTENT, HERO_NAME, HERO_ROLE } from '../constants'
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -23,7 +23,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                      className='pb-10 text-6xl font-thin tracking-tight  lg:text-6xl'>
-                        Vishnu kk
+                        {HERO_NAME}
                     </motion.h1>
                     <motion.span 
                     variants={container(0.5)}
@@ -31,7 +31,7 @@ const Hero = () => {
                     animate="visible"
                     className='bg-gradient-to-r from-pink-300 via-slate-500
                     to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
-                            Full Stack Developer
+                            {HERO_ROLE}
                     </motion.span>
                     <motion.p 
                     variants={container(1)}
