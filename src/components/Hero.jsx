@@ -2,6 +2,7 @@ import React from 'react'
 import { HERO_CONTENT, HERO_NAME, HERO_ROLE } from '../constants'
 import { motion } from "framer-motion"
 
+
 const container = (delay) => ({
     hidden: {y: -100, opacity:0},
     visible: {
@@ -17,7 +18,7 @@ const Hero = () => {
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
         <div >
             <div >
-                <div className='... flex flex-col items-center'>
+                <div className='flex flex-col items-center '>
                     <motion.h1 
                     variants={container(0)}
                     initial="hidden"
@@ -30,8 +31,8 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     className='bg-gradient-to-r from-pink-300 via-slate-500
-                    to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
-                            {HERO_ROLE}
+                    to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>
+                        {HERO_ROLE}
                     </motion.span>
                     <motion.p 
                     variants={container(1)}
