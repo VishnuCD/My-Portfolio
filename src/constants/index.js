@@ -1,4 +1,5 @@
 import project1 from '../assets/projects/project-1.jpeg'
+import project2 from '../assets/projects/project-2.jpeg'
 
 export const HERO_NAME = `Vishnu kk`;
 
@@ -30,6 +31,13 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS", "Bootstrap",  "React", "Node.js ", "Express.js", "MongoDB",],
+  },
+  {
+    title: "Social Media Website",
+    image: project2,
+    description:
+      "A fully functional social media website with features like create post, like post, add friends, view users profiles and user authentication.",
     technologies: ["HTML", "CSS", "Bootstrap",  "React", "Node.js ", "Express.js", "MongoDB",],
   },
 ];
