@@ -43,7 +43,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Thrissur in Kerala, India ",
-  phoneNo: "+91 9048 229 850 ",
+  address: "",
+  phoneNo: "+ 91 9048 229 850 ",
   email: "vishnukk385@gmail.com",
 };
