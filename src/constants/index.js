@@ -28,6 +28,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
+    git: "https://github.com/VishnuCD/E-commerce-.git",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
@@ -35,6 +36,7 @@ export const PROJECTS = [
   },
   {
     title: "Social Media Website",
+    git: "https://github.com/VishnuCD/Social-media.git",
     image: project2,
     description:
       "A fully functional social media website with features like create post, like post, add friends, view users profiles and user authentication.",
